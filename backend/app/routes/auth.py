@@ -1,0 +1,14 @@
+from fastapi import APIRouter
+
+router = APIRouter(
+    prefix="/auth",
+    tags=["Auth"]
+)
+
+@router.post("/login")
+def login():
+    return {"message": "Login API"}
+
+@router.post("/signup")
+def signup():
+    return {"message": "Signup API"}
