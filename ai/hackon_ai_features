@@ -1,0 +1,31 @@
+CURRENT AI FEATURES
+
+1. Embedding Based Product Recommendation
+
+Customer Profile
+↓
+Embedding
+↓
+Similarity Search
+↓
+Top Products
+
+2. Personalized Ad Ranking
+
+User Profile
+↓
+Embedding
+↓
+Ad Similarity
+↓
+Top Ads
+
+FUTURE UPGRADES
+
+1. Gemini Explainable Recommendations
+
+2. XGBoost Product Ranker
+
+3. Dynamic User Segmentation
+
+4. Real-Time Personalization

@@ -1,0 +1,25 @@
+PERSONALIZED RECOMMENDATION ENGINE
+
+INPUT:
+- User Tags
+- Product Tags
+
+PROCESS:
+- Compare User Tags and Product Tags
+- Calculate Similarity Score
+- Rank Products
+
+OUTPUT:
+- Top Recommended Products
+
+VERSION 1:
+Rule Based Ranking
+
+VERSION 2:
+Embedding Similarity
+
+VERSION 3:
+Gemini Explainable Recommendations
+
+VERSION 4:
+XGBoost Ranking Model

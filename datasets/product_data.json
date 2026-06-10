@@ -1,0 +1,23 @@
+[
+  {
+    "product_id":"P101",
+    "name":"KitchenAid Garden Tool Set",
+    "category":"Garden",
+    "brand":"KitchenAid",
+    "price_range":"budget"
+  },
+  {
+    "product_id":"P102",
+    "name":"Beauty Essentials Kit",
+    "category":"Beauty",
+    "brand":"Maybelline",
+    "price_range":"budget"
+  },
+  {
+    "product_id":"P103",
+    "name":"Premium Garden Sprayer",
+    "category":"Garden",
+    "brand":"Bosch",
+    "price_range":"premium"
+  }
+]
