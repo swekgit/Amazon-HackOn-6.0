@@ -5,7 +5,7 @@ import {
   Crown, ShieldCheck, Tag, BarChart2, Filter, Zap, Cpu
 } from "lucide-react";
 import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer } from "recharts";
-import rawData from "../../imports/amazon_customers_dataset.json";
+import rawData from "../imports/amazon_customers_data.json";
 
 type Customer = typeof rawData.customers[0];
 type AiTag = { label: string; color: string; bg: string; border: string; reason: string };
@@ -626,3 +626,5 @@ function StarRating({ score }: { score: number }) {
     </div>
   );
 }
+
+export default CustomerDashboard;
