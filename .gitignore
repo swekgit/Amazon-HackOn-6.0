@@ -1,4 +1,30 @@
+<<<<<<< HEAD
 .env
 venv/
 __pycache__/
 *.pyc
+=======
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Vite
+.vite/
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+>>>>>>> origin/main
