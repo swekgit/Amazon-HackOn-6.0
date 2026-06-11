@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from app.database import ad_recommendations_collection
+from backend.app.database import ad_recommendations_collection
 
 router = APIRouter()
 

@@ -1,9 +1,9 @@
-from app.database import (
+from backend.app.database import (
     ad_audience_profiles_collection,
     ad_recommendations_collection
 )
 
-from app.ad_service import get_ads_for_customer
+from backend.app.ad_service import get_ads_for_customer
 
 
 customers = list(ad_audience_profiles_collection.find())

@@ -1,11 +1,11 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.routes.ads import (
+from backend.app.routes.ads import (
     router as ads_router
 )
 
-from app.routes.recovery_profiles import (
+from backend.app.routes.recovery_profiles import (
     router as recovery_router
 )
 

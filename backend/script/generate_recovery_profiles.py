@@ -1,16 +1,16 @@
-from app.database import (
+from backend.app.database import (
     customers_collection,
     customer_recovery_profiles_collection
 )
 
-from app.recovery_service import (
+from backend.app.recovery_service import (
     calculate_recovery_score,
     get_risk_level,
     get_best_channel,
     generate_reward
 )
 
-from app.ai_service import (
+from backend.app.ai_service import (
     generate_predicted_churn_reason,
     generate_recovery_message
 )

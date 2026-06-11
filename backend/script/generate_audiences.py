@@ -1,9 +1,9 @@
-from app.database import (
+from backend.app.database import (
     customer_tags_collection,
     ad_audience_profiles_collection
 )
 
-from app.audience_service import get_google_ads_audiences
+from backend.app.audience_service import get_google_ads_audiences
 
 
 customers = list(customer_tags_collection.find())

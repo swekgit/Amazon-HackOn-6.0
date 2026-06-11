@@ -1,4 +1,4 @@
-from app.database import products_collection
+from backend.app.database import products_collection
 
 
 def get_ads_for_customer(tags, audiences):

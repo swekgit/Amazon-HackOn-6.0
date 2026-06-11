@@ -1,7 +1,7 @@
 import json
 
-from app.database import db
-from app.tag_generator import generate_tags
+from backend.app.database import db
+from backend.app.tag_generator import generate_tags
 
 collection = db["customer_tags"]
 

@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from app.database import (
+from backend.app.database import (
     customer_recovery_profiles_collection
 )
 

@@ -1,5 +1,5 @@
 import json
-from app.database import db
+from backend.app.database import db
 
 products_collection = db["products"]
 
