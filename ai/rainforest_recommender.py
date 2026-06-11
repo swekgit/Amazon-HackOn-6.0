@@ -1,4 +1,5 @@
 from rainforest_client import search_products
+from comparison_engine import compare_products
 from query_understanding import understand_query
 from product_intelligence import analyze_product
 from category_validator import category_match
@@ -279,6 +280,9 @@ results.sort(
     key=lambda x: x["score"],
     reverse=True
 )
+comparison_results = compare_products(
+    results
+)
 
 # =====================
 # PRODUCT INTELLIGENCE
@@ -401,6 +405,26 @@ for rank, item in enumerate(
 print(
     f"\nTotal Matching Products: {len(results)}"
 )
+print("\n")
+print("=" * 70)
+print("WHY TOP PRODUCT WON")
+print("=" * 70)
+
+for item in comparison_results:
+
+    print(
+        f"\nCompared Against:"
+    )
+
+    print(
+        item["loser"]
+    )
+
+    for reason in item["reasons"]:
+
+        print(
+            f"✓ {reason}"
+        )
 
 # =====================
 # SAVE RESULTS
