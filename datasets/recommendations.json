@@ -1,0 +1,72 @@
+[
+    {
+        "product_id": "P0133",
+        "product_name": "Puma T-Shirt 937",
+        "brand": "Puma",
+        "category": "Fashion",
+        "score": 0.2605450451374054
+    },
+    {
+        "product_id": "P0162",
+        "product_name": "Boat T-Shirt 787",
+        "brand": "Boat",
+        "category": "Fashion",
+        "score": 0.24682575464248657
+    },
+    {
+        "product_id": "P0167",
+        "product_name": "Boat T-Shirt 352",
+        "brand": "Boat",
+        "category": "Fashion",
+        "score": 0.2670159339904785
+    },
+    {
+        "product_id": "P0460",
+        "product_name": "H&M T-Shirt 673",
+        "brand": "H&M",
+        "category": "Fashion",
+        "score": 0.30473023653030396
+    },
+    {
+        "product_id": "P0474",
+        "product_name": "Mamaearth T-Shirt 383",
+        "brand": "Mamaearth",
+        "category": "Fashion",
+        "score": 0.3065527379512787
+    },
+    {
+        "product_id": "P0531",
+        "product_name": "HP T-Shirt 324",
+        "brand": "HP",
+        "category": "Fashion",
+        "score": 0.26201730966567993
+    },
+    {
+        "product_id": "P0533",
+        "product_name": "Boat T-Shirt 329",
+        "brand": "Boat",
+        "category": "Fashion",
+        "score": 0.2805213928222656
+    },
+    {
+        "product_id": "P0546",
+        "product_name": "Dell T-Shirt 847",
+        "brand": "Dell",
+        "category": "Fashion",
+        "score": 0.2915702164173126
+    },
+    {
+        "product_id": "P0599",
+        "product_name": "H&M T-Shirt 113",
+        "brand": "H&M",
+        "category": "Fashion",
+        "score": 0.3303956389427185
+    },
+    {
+        "product_id": "P0600",
+        "product_name": "Zara T-Shirt 297",
+        "brand": "Zara",
+        "category": "Fashion",
+        "score": 0.2602991759777069
+    }
+]

@@ -1,0 +1,33 @@
+EMBEDDING RECOMMENDATION
+
+User Profile
+↓
+Convert To Text
+
+Example
+
+Garden
+KitchenAid
+Budget
+Beauty
+
+↓
+
+Embedding
+
+Product
+↓
+
+Embedding
+
+↓
+
+Cosine Similarity
+
+↓
+
+Recommendation Score
+
+↓
+
+Top Products
